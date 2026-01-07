@@ -3,9 +3,9 @@ import React from 'react';
 import { CONFIG, Icon } from '../constants';
 
 export const Hero = () => {
-  const scrollToStyleGrid = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const scrollToGuias = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const el = document.getElementById("escolha-seu-estilo");
+    const el = document.getElementById("guias");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -15,6 +15,13 @@ export const Hero = () => {
     <section className="pt-12 pb-20 px-6 max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 text-center lg:text-left">
+          <img 
+            src={CONFIG.LOGO_URL} 
+            alt="Projeto Vestir Bem" 
+            loading="lazy"
+            className="h-6 lg:h-10 w-auto mb-8 mx-auto lg:mx-0 object-contain"
+          />
+          
           <div className="inline-flex items-center gap-2 bg-brand-secondary/10 text-brand-secondary px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
             <Icon name="verified" className="text-lg" />
             Projeto Vestir Bem
@@ -28,8 +35,8 @@ export const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
             <a 
-              href="#escolha-seu-estilo" 
-              onClick={scrollToStyleGrid}
+              href="#guias" 
+              onClick={scrollToGuias}
               className="bg-brand-cta text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-brand-cta/20 hover:scale-105 transition-transform text-center flex items-center justify-center cursor-pointer"
             >
               Já sei meu estilo → escolher meu Guia
@@ -40,18 +47,18 @@ export const Hero = () => {
               rel="noopener noreferrer"
               className="border-2 border-brand-secondary text-brand-secondary px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-secondary/5 transition-colors text-center"
             >
-              “Não sei meu estilo → descobrir agora”
+              Não sei meu estilo → descobrir agora
             </a>
           </div>
+
+          <p className="text-xs text-brand-text/60 font-medium mb-8 text-center lg:text-left">
+            Acesso imediato pela Greenn • PDF vitalício • Garantia de 7 dias
+          </p>
 
           <p className="text-sm text-brand-text/70 mb-8 italic lg:max-w-xl">
             “Dica rápida: quase toda mulher tem um estilo primário — e muitas têm um secundário. Se você não sabe, o diagnóstico te mostra.”
           </p>
           
-          <p className="text-sm text-brand-text/60 flex items-center justify-center lg:justify-start gap-3">
-            <span>Acesso imediato</span> • <span>PDF no seu e-mail</span> • <span>Garantia de 7 dias</span>
-          </p>
-
           <div className="mt-12 grid grid-cols-2 gap-4">
             <div className="bg-white p-4 rounded-2xl shadow-sm border border-brand-secondary/10">
               <span className="text-xs font-bold uppercase tracking-wider text-red-500 mb-2 block">Antes</span>

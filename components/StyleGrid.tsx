@@ -55,7 +55,7 @@ export const StyleGrid = () => {
   ];
 
   return (
-    <section id="escolha-seu-estilo" className="py-24 px-6 bg-gray-50/30 scroll-mt-24">
+    <section id="guias" className="py-24 px-6 bg-gray-50/30 scroll-mt-24">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl lg:text-5xl text-brand-title mb-4 italic">Escolha seu Guia pelo seu estilo</h2>
