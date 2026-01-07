@@ -7,7 +7,7 @@ export const CONFIG = {
   PRECO_1_GUIA: "R$ 47,00",
   PRECO_COMBO: "R$ 67,00",
   FOTO_PAULA_URL: "https://i.ibb.co/gMFHV7QK/Design-sem-nome-1.png",
-  HERO_IMAGE_URL: "https://i.ibb.co/8DyG7qys/07686ed3-a6c9-4e7f-810b-4a2b3b3c907b.png",
+  HERO_IMAGE_URL: "https://i.ibb.co/wZStFx9b/07686ed3-a6c9-4e7f-810b-4a2b3b3c907b.png",
   LOGO_URL: "https://i.ibb.co/n8CJ54Dq/Imagem-do-Whats-App-de-2025-11-14-s-23-22-28-458846d9.jpg",
   MOCKUP_GUIA_PRINCIPAL_URL: "https://picsum.photos/seed/guide1/600/800",
   MOCKUP_GUIA_SECUNDARIO_URL: "https://picsum.photos/seed/guide2/600/800",
