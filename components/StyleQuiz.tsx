@@ -12,7 +12,23 @@ export const StyleQuiz = () => {
   return (
     <section className="py-24 px-6 bg-brand-deep">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-[48px] p-8 lg:p-16 shadow-2xl border border-white/10">
+        {/* Container principal com relative para o posicionamento do selo */}
+        <div className="relative bg-white rounded-[48px] p-8 lg:p-16 shadow-2xl border border-white/10">
+          
+          {/* Selo Visual de Destaque: "GUIA PRÁTICO (PDF)" */}
+          <div className="absolute -top-5 -right-2 lg:-top-8 lg:right-10 z-20 flex items-center gap-3 bg-[#F4D06F] text-[#2D1512] px-5 py-3 lg:px-7 lg:py-4 rounded-2xl shadow-[0_10px_40px_rgba(244,208,111,0.4)] transform rotate-2 hover:rotate-0 transition-all duration-500 border-2 border-white cursor-default group/seal">
+            <div className="flex items-center justify-center bg-[#2D1512] text-[#F4D06F] rounded-lg p-1.5 shadow-sm">
+              <Icon name="menu_book" className="text-lg lg:text-xl" />
+            </div>
+            <div className="flex flex-col leading-none">
+              <div className="flex items-center gap-1.5">
+                <span className="font-black text-[10px] lg:text-xs uppercase tracking-[0.15em]">Guia Prático</span>
+                <Icon name="check_circle" className="text-green-700 text-xs lg:text-sm" />
+              </div>
+              <span className="font-bold text-[9px] lg:text-[10px] opacity-70 uppercase tracking-widest mt-1">(PDF IMEDIATO)</span>
+            </div>
+          </div>
+
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             {/* Coluna Texto */}
             <div className="flex-1 text-center lg:text-left">
@@ -66,7 +82,7 @@ export const StyleQuiz = () => {
                 <div className="absolute inset-0 bg-brand-cta/10 blur-[60px] rounded-full group-hover:bg-brand-cta/20 transition-colors"></div>
                 <div className="relative bg-gray-50 p-4 rounded-[2.5rem] shadow-lg border border-gray-100 transform rotate-1 group-hover:rotate-0 transition-transform duration-500">
                   <img 
-                    src="https://i.ibb.co/tptMhN5X/Chat-GPT-Image-7-de-jan-de-2026-18-08-21.png" 
+                    src="https://i.ibb.co/zVGpHN07/Chat-GPT-Image-7-de-jan-de-2026-20-06-39.png" 
                     alt="Exemplo do Diagnóstico" 
                     className="w-full h-auto rounded-[1.8rem] shadow-sm"
                   />

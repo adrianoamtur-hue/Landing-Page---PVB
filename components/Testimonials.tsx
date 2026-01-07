@@ -6,7 +6,7 @@ const TESTIMONIALS = [
     name: "Camila",
     location: "MG",
     style: "Estilo Natural",
-    image: "https://i.ibb.co/RpfQktXg/Camila-Natural-41-anos.png",
+    image: "https://i.ibb.co/3mHfJ3Zh/Camila-oriental.png",
     antes: "Eu priorizava conforto, mas acabava me sentindo desleixada.",
     depois: "Aprendi que dá pra ser confortável e bonita ao mesmo tempo."
   },
@@ -22,7 +22,7 @@ const TESTIMONIALS = [
     name: "Marina",
     location: "PR",
     style: "Estilo Clássico",
-    image: "https://i.ibb.co/JRQqf0n1/Marina-34-anos-Parana.png",
+    image: "https://i.ibb.co/4n2t5tLf/marina-sorrindo.png",
     antes: "Tinha roupas boas, mas nunca sabia como usar no dia a dia.",
     depois: "Agora me visto com segurança e elegância."
   },
