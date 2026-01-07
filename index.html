@@ -46,6 +46,14 @@
         .snap-center {
             scroll-snap-align: center;
         }
+        /* Ocultar barra de rolagem mas manter funcionalidade */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
     </style>
 <script type="importmap">
 {

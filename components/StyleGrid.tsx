@@ -60,7 +60,7 @@ export const StyleGrid = () => {
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl lg:text-5xl text-brand-title mb-4 italic">Escolha seu Guia pelo seu estilo</h2>
           <p className="text-brand-text/70 text-lg max-w-2xl mx-auto leading-relaxed">
-            Cada Guia é um acesso vitalício (pela Greenn), com leitura leve no celular e direção prática para você se vestir com clareza.
+            Cada Guia é um PDF prático com acesso vitalício (pela Greenn) — feito para ler no celular e consultar na hora de se vestir ou comprar.
           </p>
           <div className="w-20 h-1 bg-brand-cta mx-auto mt-8"></div>
         </div>
@@ -81,7 +81,7 @@ export const StyleGrid = () => {
                   {style.desc}
                 </p>
                 <div className="text-brand-cta font-bold text-xs uppercase tracking-widest mb-6">
-                  Acesso vitalício • R$ 47
+                  ACESSO VITALÍCIO • R$ 47
                 </div>
                 <a 
                   href={style.link}
@@ -95,6 +95,12 @@ export const StyleGrid = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <p className="text-brand-text/40 text-[10px] lg:text-xs italic max-w-2xl mx-auto">
+            Dica rápida: muitas mulheres têm 1 estilo principal e 1 secundário. Se estiver em dúvida, faça o diagnóstico e receba a recomendação exata por e-mail.
+          </p>
         </div>
       </div>
     </section>

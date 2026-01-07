@@ -73,13 +73,9 @@ export const VisualGuide = () => {
           </div>
 
           <div className="mt-14 pt-8 border-t border-gray-100">
-            <p className="text-brand-text/60 italic mb-8 max-w-sm">
+            <p className="text-brand-text/60 italic max-w-sm">
               Para consultar em frente ao espelho ou na loja.
             </p>
-            <a href="#escolha-seu-estilo" className="inline-flex items-center gap-3 bg-brand-cta text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-brand-cta/40 hover:-translate-y-1 transition-all">
-              Quero meu Guia agora
-              <Icon name="arrow_forward" className="text-xl" />
-            </a>
           </div>
         </div>
 

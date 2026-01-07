@@ -10,9 +10,9 @@ export const SmartWardrobe = () => {
   ];
 
   return (
-    <section className="py-24 px-6 bg-white">
+    <section className="py-24 px-6 bg-brand-deep">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-gray-50 rounded-[48px] p-8 lg:p-16 border border-brand-secondary/10 text-center">
+        <div className="bg-white rounded-[48px] p-8 lg:p-16 shadow-2xl border border-white/10 text-center">
           <div className="inline-flex items-center gap-2 text-brand-cta font-bold text-sm uppercase tracking-widest mb-6">
             <Icon name="inventory_2" className="text-2xl" />
             Novidade Estratégica
