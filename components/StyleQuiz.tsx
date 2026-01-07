@@ -66,7 +66,7 @@ export const StyleQuiz = () => {
                 <div className="absolute inset-0 bg-brand-cta/10 blur-[60px] rounded-full group-hover:bg-brand-cta/20 transition-colors"></div>
                 <div className="relative bg-gray-50 p-4 rounded-[2.5rem] shadow-lg border border-gray-100 transform rotate-1 group-hover:rotate-0 transition-transform duration-500">
                   <img 
-                    src="https://i.ibb.co/pvp2DrRp/C6657363-3-B16-4-C27-81-AE-9-EB991883-EF7.png" 
+                    src="https://i.ibb.co/tptMhN5X/Chat-GPT-Image-7-de-jan-de-2026-18-08-21.png" 
                     alt="Exemplo do Diagnóstico" 
                     className="w-full h-auto rounded-[1.8rem] shadow-sm"
                   />
