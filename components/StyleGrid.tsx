@@ -8,49 +8,49 @@ export const StyleGrid = () => {
       name: "Clássico", 
       desc: "Elegância simples e atemporal. Neutros e cortes retos.", 
       link: "https://payfast.greenn.com.br/126004",
-      image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/WvvWwSKZ/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Criativo", 
       desc: "Personalidade e autenticidade. Um toque autoral no visual.", 
       link: "https://payfast.greenn.com.br/126012",
-      image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/ZpHFW80v/1-Estilo-Criativo.png"
     },
     { 
       name: "Dramático", 
       desc: "Impacto e modernidade. Looks marcantes e urbanos.", 
       link: "https://payfast.greenn.com.br/126015",
-      image: "https://images.unsplash.com/photo-1539109132382-361bd5755a7e?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/zTpK3Xxg/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Elegante", 
       desc: "Sofisticação sem esforço. Qualidade acima de quantidade.", 
       link: "https://payfast.greenn.com.br/126008",
-      image: "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/0yf6ZXx7/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Esportivo", 
       desc: "Conforto funcional e leve. Praticidade no dia a dia.", 
       link: "https://payfast.greenn.com.br/126005",
-      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/PZ6N5W24/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Natural", 
       desc: "Leveza e simplicidade. Tecidos confortáveis e cores da terra.", 
       link: "https://payfast.greenn.com.br/126014",
-      image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/NgpCMnFB/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Romântico", 
       desc: "Delicadeza e feminilidade. Leveza e detalhes suaves.", 
       link: "https://payfast.greenn.com.br/127776",
-      image: "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/k668ydcf/1-Estilo-dram-tico-T-tulo.png"
     },
     { 
       name: "Sexy", 
       desc: "Sensualidade com sofisticação. Confiança e presença.", 
       link: "https://payfast.greenn.com.br/125997",
-      image: "https://images.unsplash.com/photo-1529139513055-07f9127c5361?q=80&w=400&h=500&fit=crop"
+      image: "https://i.ibb.co/4gnb4L1N/1-Estilo-dram-tico-T-tulo.png"
     }
   ];
 
@@ -89,7 +89,7 @@ export const StyleGrid = () => {
                   rel="noopener noreferrer"
                   className="w-full py-3.5 px-4 rounded-xl border-2 border-brand-cta text-brand-cta font-bold text-sm hover:bg-brand-cta hover:text-white transition-all inline-flex items-center justify-center gap-2"
                 >
-                  Ver Guia deste estilo
+                  Comprar guia deste estilo
                   <Icon name="arrow_forward" className="text-lg" />
                 </a>
               </div>
